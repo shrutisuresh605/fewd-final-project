@@ -226,25 +226,25 @@ div#parallax-bg-5 {
   align-items: center;
   color: white;
   padding: 50px;
-  top: 200px;
+  top: 150px;
   height: auto;
 }
 
-.main-text p, h1-head {
-  overflow: hidden;
+.main-text p, h1-head  {
   max-width: 400px;
-  font-size: 110%;
+  font-size: 100%;
   height: auto;
-  padding: 10px;
+  text-align: left;
 }
 
 .h1-head {
   color: inherit;
   font-family: "Kanit", san-serif;
   font-size: 45px;
-  margin-left: -45px;
+  width: 400px;
+  margin-left: -25px;
+  margin-bottom: -1px;
 }
-
 
 
 
@@ -256,7 +256,7 @@ div#parallax-bg-5 {
   flex-direction: column;
   align-items: center;
   padding: 50px;
-  top:600px;
+  top:2000px;
   overflow: auto;
 }
 
@@ -271,7 +271,11 @@ div#parallax-bg-5 {
 
 h2 {
   font-size: 25px;
-  padding: 5px 0 5px 0;
+  padding: 5px 0 10px 0;
+}
+
+h3 {
+  padding-bottom: 10px;
 }
 
 
@@ -432,3 +436,5 @@ footer {
     flex-direction:row;
     justify-content: flex-end;
    }}
+
+
