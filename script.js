@@ -12,7 +12,7 @@ jQuery(document).ready(function() {
     $("#parallax-bg-2").css("top", 0 - scrolled * 0.4 + "px");
     $("#parallax-bg-3").css("top", 0 - scrolled * 0.7 + "px");
     $("#parallax-bg-4").css("top", 0 - scrolled * 0.2 + "px");
-    $("#parallax-bg-5").css("top", 0 - scrolled * 0.4 + "px");
+    $("#parallax-bg-5").css("top", 0 - scrolled * 0.35 + "px");
   }
 });
 
